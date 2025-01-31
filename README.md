@@ -2,75 +2,64 @@
 
 FlipZon- Online shopping platform
 
-# Getting Started with Create React App
+# Production link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you want to view app online instead of cloning or running it locally, you can visit this url:
 
-## Available Scripts
+https://flipzon-three.vercel.app/
 
-In the project directory, you can run:
+# Getting Started with FlipZone
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is an online shopping view-only portal designed to provide users with a seamless browsing experience. It allows users to view products, filter items based on names, and explore detailed product information without the ability to make purchases. The portal features a user-friendly interface with responsive design, ensuring accessibility on various devices. The primary goal of the portal is to offer an intuitive shopping experience by displaying product listings, images, descriptions, and pricing, making it easy for users to explore products before deciding to make a purchase on another platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Before you begin, ensure you have met the following requirements:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js
+- npm
 
-### `npm run build`
+You can download Node.js from [here](https://nodejs.org/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To clone and run this project locally, follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone the repository
 
-### `npm run eject`
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to store the project.
+3. Clone the repository by running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   git clone https://github.com/jaywankhade99/FlipZon.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Navigate into the project folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   cd your-repo-name
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install Dependencies
 
-## Learn More
+To install the necessary dependencies, run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run Project Locally;
 
-### Code Splitting
+Once you are done with installing dependencies, you can run project.
+To start the development server, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
+This will launch the app at http://localhost:3000 (or a different port if specified).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Project Functionalities:
 
-### Making a Progressive Web App
+When you are on main page, you will see the list of products.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you scroll down, it will automatically keep loading the page with new products.
 
-### Advanced Configuration
+Once you scroll down, you will be able to see Back to Top button in blue color, if clicked, it will take you to the top of the page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-> > > > > > > a6c34ab (Project Created)
+Search bar is also available on the top. If you want to search any product, please type it in search box and click search button. It will show you all the possible results on the page.

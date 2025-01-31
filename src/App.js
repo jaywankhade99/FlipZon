@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Body from "./Components/Body";
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { ShimmerCard } from "./Components/Shimmer";
+import Error from "./Components/Error";
 const App = () => {
   return (
     <div className="main-app scroll-smooth">
@@ -31,6 +32,6 @@ export const appRoutes = createBrowserRouter([
         ),
       },
     ],
-    errorElement: <div>we got an error</div>,
+    errorElement: <Error />,
   },
 ]);

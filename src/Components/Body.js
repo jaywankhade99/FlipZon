@@ -20,6 +20,9 @@ const Body = () => {
       const response = await fetch(
         `https://dummyjson.com/products?limit=10&skip=${mainList.length}`
       );
+      if (!response.ok) {
+        throw new Error("Failed to fetch data!");
+      }
       const data = await response.json();
 
       if (data.products.length !== 0) {
