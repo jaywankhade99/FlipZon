@@ -1,4 +1,6 @@
-=======
+# FlipZon
+
+FlipZon- Online shopping platform
 
 # Getting Started with Create React App
 
